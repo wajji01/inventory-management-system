@@ -1,0 +1,47 @@
+/* Header */
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 5%;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    transition: all .5s ease;
+}
+
+
+.logo {
+    position: relative;
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    /* font-size: 35px; */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 100;
+    animation: slideRight 1s ease forwards;
+}
+
+
+
+.view h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.addpro{
+    box-shadow: 
+    0px 0px 29px crimson;
+    color: crimson;
+    border-radius: 30px;
+}
